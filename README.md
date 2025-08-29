@@ -42,10 +42,20 @@ Refinamento de modelo conceitual de banco de dados para e-commerce, implementand
 
 [📁 Ver Projeto 1](./project_1/)
 
-### 📊 Projeto 2: [Título do Projeto 2]
-**Status:** 🔄 Em desenvolvimento
+### 📊 Projeto 2: Construindo um Esquema Conceitual para Banco De dados
+Criação de um modelo conceitual para uma Oficina Mecânica a partir de uma narrativa.
 
-
+**Principais implementações:**
+- Separação de Cliente PJ e PF com herança
+- Criação e indetificação das entidades:
+    1. Cliente
+    2. Veículo 
+    3. Ordem de Serviço (OS)
+    4. Mecânico
+    5. Equipe
+    6. Peças
+    7. Serviços_de_Referência
+- Modelagem utilizando MySQL Workbench
 
 [📁 Ver Projeto 2](./project_2/)
 
