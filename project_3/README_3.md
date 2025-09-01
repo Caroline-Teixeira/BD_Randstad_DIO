@@ -9,7 +9,7 @@ Este projeto implementa um sistema de banco de dados para e-commerce, gerenciand
 ### Scripts
 
 - Ecommerce_Script - criação do banco de dados [📁 Ver Script 1](./assets/Ecommerce_Script.sql) 
-- Ecommerce_Pop - Populando banco de dados [📁 Ver Script 2](./assets/Ecommerce_Pop.sql)
+- Ecommerce_Pop - populando banco de dados [📁 Ver Script 2](./assets/Ecommerce_Pop.sql)
 - Ecommerce_Operations - script de consultas (desafio)  [📁 Ver Script 3](./assets/Ecommerce_Operations.sql)  
 
 ### Principais Tabelas

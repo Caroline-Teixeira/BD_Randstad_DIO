@@ -60,7 +60,7 @@ Criação de um modelo conceitual para uma Oficina Mecânica a partir de uma nar
 [📁 Ver Projeto 2](./project_2/)
 
 ### 📊 Projeto 3: Construindo seu Primeiro Projeto Lógico de Banco de Dados
- Primeiro projeto lógico de banco de dados utilizando o MySQL. O objetivo é replicar a modelagem de um banco de dados para um cenário de e-commerce (com vase no projeto 1).
+ Primeiro projeto lógico de banco de dados utilizando o MySQL. O objetivo é replicar a modelagem de um banco de dados para um cenário de e-commerce (com base no projeto 1).
 
 ### Principais Tabelas
 
@@ -76,10 +76,31 @@ Criação de um modelo conceitual para uma Oficina Mecânica a partir de uma nar
 
 [📁 Ver Projeto 3](./project_3/)
 
+
+### 📊 Projeto 4: Constrindo um Projeto Lógico de Banco de Dados do Zero
+ Esquema lógico de um contexto de oficina, utilizando o esquema conceitual desenvolvido no projeto 2.
+
+### Principais Tabelas
+
+- **Cliente**: Dados dos clientes (nome, CPF, endereço)
+- **Veiculo**: Informações dos veículos (modelo, placa, ano) vinculados aos clientes
+- **Equipe**: Equipes de trabalho organizadas por função especializada
+- **Mecanico**: Dados dos mecânicos e suas especialidades, vinculados às equipes
+- **Peca**: Catálogo de peças com descrição e valores unitários
+- **Servico_Referencia**: Tabela de preços de referência para serviços padrão
+- **OS**: Ordens de serviço com controle de datas, status e responsáveis
+- **Referencia_OS**: Relacionamento entre ordens de serviço e serviços realizados
+- **Peca_OS**: Controle de peças utilizadas em cada ordem de serviço
+- **Autorizacao**: Controle de autorizações dos clientes para execução dos serviços
+
+[📁 Ver Projeto 4](./project_4/)
+
 ## 🎓 Competências Desenvolvidas
 
 - **Modelagem de Banco de Dados** - Criação e refinamento de modelos conceituais
 - **SQL Avançado** - Consultas complexas e otimização de queries
+
+
 <!--
 - **ETL (Extract, Transform, Load)** - Processos de extração e transformação de dados
 - **Análise de Dados** - Interpretação e geração de insights
