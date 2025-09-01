@@ -59,10 +59,20 @@ Criação de um modelo conceitual para uma Oficina Mecânica a partir de uma nar
 
 [📁 Ver Projeto 2](./project_2/)
 
-### 📊 Projeto 3: [Título do Projeto 3]
-**Status:** 🔄 Em desenvolvimento
+### 📊 Projeto 3: Construindo seu Primeiro Projeto Lógico de Banco de Dados
+ Primeiro projeto lógico de banco de dados utilizando o MySQL. O objetivo é replicar a modelagem de um banco de dados para um cenário de e-commerce (com vase no projeto 1).
 
-Descrição do terceiro projeto da trilha de análise de dados.
+### Principais Tabelas
+
+- **Cliente**: Dados básicos (nome, endereço)
+- **Cliente_CPF / Cliente_CNPJ**: Especialização para PF e PJ
+- **Fornecedor**: Dados dos fornecedores (tipo: loja ou terceiro)
+- **Fornecedor_CPF / Fornecedor_CNPJ**: Especialização para PF e PJ
+- **Produto**: Catálogo de produtos (nome, categoria, preço)
+- **Estoque**: Locais de armazenamento
+- **Pedido**: Pedidos dos clientes
+- **Pagamento**: Dados de pagamento
+- **Entrega**: Controle de entregas com rastreamento
 
 [📁 Ver Projeto 3](./project_3/)
 
